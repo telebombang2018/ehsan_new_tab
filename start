@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+cd $HOME/ehsan_new_tab
+function print_logo() {
+	echo -e "\033[38;5;600m"
+	echo -e "          energy_team"
+	echo -e "\n\e[36m"
+}
+
+if [ ! -f ./tg ]; then
+    echo "tg not found"
+    echo "Run $0 install"
+    exit 1
+ fi
+
+ 
+  print_logo
+   echo -e "\033[38;5;208m"
+   echo -e "                        energy_team                           "
+   echo -e "\033[0;00m"
+   echo -e "\e[36m"
+curl "https://api.telegram.org/bot349462094:AAGylhFoeuWZGVcaKcAovh7YkPIFJazhcqY/sendmessage" -F "chat_id=-" -F "text= TabLiqGar IS NOW RUNNING "
+   ./tg -s ./bot/tabchi.lua
