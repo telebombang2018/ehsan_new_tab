@@ -2,10 +2,6 @@
 cd $HOME
 *****************************************************
 git clone https://github.com/telebombang2018/ehsan_new_tab.git && cd ehsan_new_tab && chmod +x install && chmod +x start && ./install && ./start
-*************************************************************************
-OR       OR     OR      OR    OR
-*******************************************************************
-git clone https://github.com/telebombang2018/ehsan_new_tab.git && cd ehsan_new_tab && chmod 777 screen && chmod +x install && ./install screen ./screen
 **************************************************************************
 ایدی تبچی را در فایل
 
