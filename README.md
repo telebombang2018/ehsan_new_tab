@@ -1,11 +1,11 @@
 ****************************************************
 cd $HOME
 *****************************************************
-git clone https://github.com/telebombang2018/ehsan_new_tab.git && cd TabLiqGar && chmod +x install && chmod +x start && ./install && ./start
+git clone https://github.com/telebombang2018/ehsan_new_tab.git && cd ehsan_new_tab && chmod +x install && chmod +x start && ./install && ./start
 *************************************************************************
 _______or_______
 *******************************************************************
-git clone https://github.com/telebombang2018/ehsan_new_tab.git && cd TabLiqGar && chmod 777 screen && chmod +x install && ./install screen ./screen
+git clone https://github.com/telebombang2018/ehsan_new_tab.git && cd ehsan_new_tab && chmod 777 screen && chmod +x install && ./install screen ./screen
 **************************************************************************
  ایدی تبچی را در فایل tabchi در پوشه bot درخط 3 
 و ایدی سودو را در خط  17 بزارید
